@@ -1,5 +1,5 @@
 /* 御快達乘客 App — 簡單離線殼（唔快取 API）；支援 GitHub Pages 子路徑 */
-const CACHE = 'yukda-passenger-v5-grok-ui';
+const CACHE = 'yukda-passenger-v6-mask-gray';
 
 self.addEventListener('install', (event) => {
   const base = self.registration.scope;
