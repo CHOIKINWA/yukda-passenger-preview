@@ -1,0 +1,25 @@
+{
+  "name": "即到",
+  "short_name": "即到",
+  "description": "澳門包鐘駕駛體驗。預付餘額，按時長包車。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#161513",
+  "lang": "zh-Hant-MO",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
