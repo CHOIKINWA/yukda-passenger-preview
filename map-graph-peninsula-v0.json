@@ -1,0 +1,269 @@
+{
+  "version": "peninsula-v0",
+  "viewBox": "0 0 800 1000",
+  "note": "v0 全部可見；canvas 為選關圖大致位置（可再調），唔係精確測繪",
+  "nodes": [
+    {
+      "code": "barra",
+      "name_zh": "媽閣",
+      "district": "風順堂／下環南",
+      "canvas_x": 210,
+      "canvas_y": 310,
+      "stage_order": 1,
+      "unlock_rule": "start"
+    },
+    {
+      "code": "manduco",
+      "name_zh": "下環",
+      "district": "下環區",
+      "canvas_x": 230,
+      "canvas_y": 280,
+      "stage_order": 2,
+      "unlock_rule": "after:barra"
+    },
+    {
+      "code": "lacerda",
+      "name_zh": "提督馬路",
+      "district": "沙梨頭／新橋",
+      "canvas_x": 250,
+      "canvas_y": 230,
+      "stage_order": 3,
+      "unlock_rule": "after:manduco"
+    },
+    {
+      "code": "sanma",
+      "name_zh": "新馬路",
+      "district": "中區",
+      "canvas_x": 300,
+      "canvas_y": 250,
+      "stage_order": 3,
+      "unlock_rule": "after:manduco"
+    },
+    {
+      "code": "praia_grande",
+      "name_zh": "南灣",
+      "district": "大堂／南灣",
+      "canvas_x": 340,
+      "canvas_y": 270,
+      "stage_order": 3,
+      "unlock_rule": "after:manduco"
+    },
+    {
+      "code": "patane",
+      "name_zh": "沙欄仔／斯丹口",
+      "district": "沙梨頭",
+      "canvas_x": 240,
+      "canvas_y": 200,
+      "stage_order": 4,
+      "unlock_rule": "after:lacerda"
+    },
+    {
+      "code": "senado",
+      "name_zh": "議事亭／中區",
+      "district": "大堂區",
+      "canvas_x": 310,
+      "canvas_y": 235,
+      "stage_order": 4,
+      "unlock_rule": "after:sanma"
+    },
+    {
+      "code": "namvan",
+      "name_zh": "南灣湖",
+      "district": "外港及南灣湖",
+      "canvas_x": 380,
+      "canvas_y": 255,
+      "stage_order": 4,
+      "unlock_rule": "after:praia_grande"
+    },
+    {
+      "code": "horta",
+      "name_zh": "高士德",
+      "district": "高士德及雅廉訪",
+      "canvas_x": 280,
+      "canvas_y": 170,
+      "stage_order": 5,
+      "unlock_rule": "after:patane|senado"
+    },
+    {
+      "code": "guía",
+      "name_zh": "東望洋／松山",
+      "district": "東望洋",
+      "canvas_x": 350,
+      "canvas_y": 180,
+      "stage_order": 5,
+      "unlock_rule": "after:senado|namvan"
+    },
+    {
+      "code": "nape",
+      "name_zh": "新口岸",
+      "district": "新口岸",
+      "canvas_x": 420,
+      "canvas_y": 220,
+      "stage_order": 5,
+      "unlock_rule": "after:namvan"
+    },
+    {
+      "code": "areia",
+      "name_zh": "黑沙環",
+      "district": "花地瑪堂",
+      "canvas_x": 320,
+      "canvas_y": 120,
+      "stage_order": 6,
+      "unlock_rule": "after:horta"
+    },
+    {
+      "code": "portas",
+      "name_zh": "關閘",
+      "district": "花地瑪堂北",
+      "canvas_x": 300,
+      "canvas_y": 70,
+      "stage_order": 7,
+      "unlock_rule": "after:areia"
+    }
+  ],
+  "edges": [
+    {
+      "from": "barra",
+      "to": "manduco",
+      "label": null
+    },
+    {
+      "from": "manduco",
+      "to": "lacerda",
+      "label": "提督線"
+    },
+    {
+      "from": "manduco",
+      "to": "sanma",
+      "label": "新馬路線"
+    },
+    {
+      "from": "manduco",
+      "to": "praia_grande",
+      "label": "南灣線"
+    },
+    {
+      "from": "lacerda",
+      "to": "patane",
+      "label": null
+    },
+    {
+      "from": "sanma",
+      "to": "senado",
+      "label": null
+    },
+    {
+      "from": "praia_grande",
+      "to": "namvan",
+      "label": null
+    },
+    {
+      "from": "patane",
+      "to": "horta",
+      "label": null
+    },
+    {
+      "from": "senado",
+      "to": "horta",
+      "label": null
+    },
+    {
+      "from": "senado",
+      "to": "guía",
+      "label": null
+    },
+    {
+      "from": "namvan",
+      "to": "guía",
+      "label": null
+    },
+    {
+      "from": "namvan",
+      "to": "nape",
+      "label": null
+    },
+    {
+      "from": "horta",
+      "to": "areia",
+      "label": null
+    },
+    {
+      "from": "areia",
+      "to": "portas",
+      "label": null
+    }
+  ],
+  "streets_inventory": {
+    "說明": "主要幹道／片區節點用；非全澳街道全表。來源：官方街道名＋統計分區。",
+    "堂區": [
+      "風順堂區",
+      "大堂區",
+      "望德堂區",
+      "花王堂區",
+      "花地瑪堂區",
+      "嘉模堂區(氹仔)",
+      "聖方濟各堂區(路環)"
+    ],
+    "半島主幹_用於關卡": [
+      {
+        "zh": "媽閣一帶",
+        "pt": "Barra",
+        "node": "barra"
+      },
+      {
+        "zh": "下環街",
+        "pt": "Rua da Praia do Manduco",
+        "node": "manduco"
+      },
+      {
+        "zh": "提督馬路",
+        "pt": "Avenida do Almirante Lacerda",
+        "node": "lacerda"
+      },
+      {
+        "zh": "新馬路",
+        "pt": "Avenida de Almeida Ribeiro",
+        "node": "sanma"
+      },
+      {
+        "zh": "南灣大馬路",
+        "pt": "Avenida da Praia Grande",
+        "node": "praia_grande"
+      },
+      {
+        "zh": "河邊新街",
+        "pt": "Rua do Almirante Sérgio",
+        "note": "媽閣↔下環內港邊"
+      },
+      {
+        "zh": "高士德大馬路",
+        "pt": "Avenida de Horta e Costa",
+        "node": "horta"
+      },
+      {
+        "zh": "殷皇子大馬路",
+        "pt": "Avenida do Infante D. Henrique",
+        "note": "接新馬路／南灣"
+      },
+      {
+        "zh": "水坑尾街",
+        "pt": "Rua do Campo",
+        "note": "中區支線，v1未獨立成關"
+      },
+      {
+        "zh": "荷蘭園大馬路",
+        "pt": "Avenida do Conselheiro Ferreira de Almeida",
+        "note": "望德方向，可後加"
+      }
+    ],
+    "離島_後續世界": [
+      "氹仔舊城",
+      "氹仔中心",
+      "北安",
+      "路氹城",
+      "路環市區",
+      "黑沙",
+      "竹灣"
+    ]
+  }
+}
