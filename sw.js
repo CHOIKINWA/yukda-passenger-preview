@@ -1,5 +1,5 @@
 /* 御快達乘客 App — 簡單離線殼（唔快取 API）；支援 GitHub Pages 子路徑 */
-const CACHE = 'yukda-passenger-v15-solid-mute';
+const CACHE = 'yukda-passenger-v16-virtual';
 
 self.addEventListener('install', (event) => {
   const base = self.registration.scope;

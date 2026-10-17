@@ -1,0 +1,77 @@
+{
+  "version": "virtual-macau-v1",
+  "viewBox": "0 0 800 1000",
+  "width": 800,
+  "height": 1000,
+  "coordinate_system": "canvas",
+  "note": "Pins use canvas coords x 0–800, y 0–1000 (top-left origin). Not lat/lng for basemap placement; demo pins below for later overlay.",
+  "pins_demo": {
+    "半島": [
+      237.2,
+      226.2
+    ],
+    "氹仔": [
+      340.1,
+      558.7
+    ],
+    "路氹": [
+      363.8,
+      677.4
+    ],
+    "路環": [
+      300.5,
+      843.7
+    ]
+  },
+  "style": {
+    "land": "#F3EFE6",
+    "sea": "#9EBDFF",
+    "outline": "#C9C2B4",
+    "outline_stroke_px": 2,
+    "trunk": "#D4B56A",
+    "trunk_stroke_px": 4.5,
+    "green": "#C5D9A8",
+    "no_buildings": true,
+    "no_street_names": true,
+    "no_mainland": true,
+    "no_grey_mask": true,
+    "no_watermarks": true,
+    "no_text_labels": true,
+    "no_pins_on_basemap": true
+  },
+  "source_silhouette": "macau-schematic-v5.svg (evenodd land paths)",
+  "files": {
+    "svg": "virtual-macau-v1.svg",
+    "png": "virtual-macau-v1.png"
+  },
+  "origin": {
+    "x0_y0": "左上角",
+    "x_increases": "向右",
+    "y_increases": "向下",
+    "units": "畫布像素（同 SVG user units）",
+    "fields": [
+      "canvas_x",
+      "canvas_y"
+    ],
+    "range": {
+      "canvas_x": [
+        0,
+        800
+      ],
+      "canvas_y": [
+        0,
+        1000
+      ]
+    },
+    "pin_anchor": "針尖落喺 (canvas_x, canvas_y)"
+  },
+  "colors": {
+    "land": "#F7F3EB",
+    "water": "#9EBDFF",
+    "trunk": "#D4A017",
+    "outline": "#C9C2B4",
+    "green": "#C5D9A8",
+    "pin_size_px": 26
+  },
+  "notes": "乘客地圖主座標＝畫布；唔用 lat/lng 做主欄位"
+}
