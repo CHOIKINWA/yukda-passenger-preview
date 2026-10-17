@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
-<title>御快達 半島闖關草圖 v0</title>
+<title>御快達 半島闖關草圖 v0.1</title>
 <rect width="800" height="1000" fill="#9EBDFF"/>
-<rect x="40" y="40" width="720" height="920" rx="24" fill="#F7F3EB" opacity="0.92"/>
-<text x="400" y="90" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#5A5248">半島闖關草圖 v0</text>
-<line x1="210" y1="310" x2="230" y2="280" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="230" y1="280" x2="250" y2="230" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="230" y1="280" x2="300" y2="250" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="230" y1="280" x2="340" y2="270" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="250" y1="230" x2="240" y2="200" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="300" y1="250" x2="310" y2="235" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="340" y1="270" x2="380" y2="255" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="240" y1="200" x2="280" y2="170" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="310" y1="235" x2="280" y2="170" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="310" y1="235" x2="350" y2="180" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="380" y1="255" x2="350" y2="180" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="380" y1="255" x2="420" y2="220" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="280" y1="170" x2="320" y2="120" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<line x1="320" y1="120" x2="300" y2="70" stroke="#D4B56A" stroke-width="4" stroke-linecap="round"/>
-<circle cx="210" cy="310" r="28" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="210" y="314" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">媽閣</text>
-<circle cx="230" cy="280" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="230" y="284" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">下環</text>
-<circle cx="250" cy="230" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="250" y="234" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">提督馬路</text>
-<circle cx="300" cy="250" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="300" y="254" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">新馬路</text>
-<circle cx="340" cy="270" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="340" y="274" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">南灣</text>
-<circle cx="240" cy="200" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="240" y="204" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">沙欄仔／斯丹口</text>
-<circle cx="310" cy="235" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="310" y="239" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">議事亭／中區</text>
-<circle cx="380" cy="255" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="380" y="259" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">南灣湖</text>
-<circle cx="280" cy="170" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="280" y="174" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">高士德</text>
-<circle cx="350" cy="180" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="350" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">東望洋／松山</text>
-<circle cx="420" cy="220" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="420" y="224" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">新口岸</text>
-<circle cx="320" cy="120" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="320" y="124" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">黑沙環</text>
-<circle cx="300" cy="70" r="22" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
-<text x="300" y="74" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4A4534">關閘</text>
+<rect x="40" y="40" width="720" height="920" rx="24" fill="#F7F3EB" opacity="0.88"/>
+<text x="400" y="88" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#5A5248">半島選關 v0.1 · 13關</text>
+<line x1="210" y1="310" x2="230" y2="280" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="230" y1="280" x2="250" y2="230" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="230" y1="280" x2="300" y2="250" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="230" y1="280" x2="340" y2="270" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="250" y1="230" x2="240" y2="200" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="300" y1="250" x2="310" y2="235" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="340" y1="270" x2="380" y2="255" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="240" y1="200" x2="280" y2="170" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="310" y1="235" x2="280" y2="170" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="310" y1="235" x2="350" y2="180" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="380" y1="255" x2="350" y2="180" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="380" y1="255" x2="420" y2="220" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="280" y1="170" x2="320" y2="120" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<line x1="320" y1="120" x2="300" y2="70" stroke="#D4B56A" stroke-width="5" stroke-linecap="round"/>
+<circle cx="210" cy="310" r="28" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="4"/>
+<text x="210" y="315" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">媽閣</text>
+<circle cx="230" cy="280" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="230" y="285" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">下環</text>
+<circle cx="250" cy="230" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="250" y="235" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">提督馬路</text>
+<circle cx="300" cy="250" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="300" y="255" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">新馬路</text>
+<circle cx="340" cy="270" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="340" y="275" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">南灣</text>
+<circle cx="240" cy="200" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="240" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">沙欄仔／斯丹口</text>
+<circle cx="310" cy="235" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="310" y="240" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">議事亭／中區</text>
+<circle cx="380" cy="255" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="380" y="260" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">南灣湖</text>
+<circle cx="280" cy="170" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="280" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">高士德</text>
+<circle cx="350" cy="180" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="350" y="185" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">東望洋／松山</text>
+<circle cx="420" cy="220" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="420" y="225" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">新口岸</text>
+<circle cx="320" cy="120" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="320" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">黑沙環</text>
+<circle cx="300" cy="70" r="24" fill="#FFFDF8" stroke="#D4A017" stroke-width="3"/>
+<text x="300" y="75" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#4A4534">關閘</text>
 </svg>
